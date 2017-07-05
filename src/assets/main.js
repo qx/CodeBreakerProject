@@ -7,13 +7,13 @@ function guess() {
 }
 
 function setHiddenFields(){
-  var num = Math.random()*10000;
-  num =  Math.floor(num);
-  num = num.toString();
-  while(num.length<4){
-    num = "0"+num;
+  answer = Math.random()*10000;
+  answer =  Math.floor(answer);
+  answer = answer.toString();
+  while(answer.length<4){
+    answer = "0"+answer;
   }
-  return num;
+  return answer;
 }
 
 
