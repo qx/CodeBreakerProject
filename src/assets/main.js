@@ -17,8 +17,8 @@ function setHiddenFields(){
 
 }
 
-function setMessage(mmessage){
-  mmessage.innerHTML = "kkkkkk";
+function setMessage(mess){
+  mmessage.innerHTML = mess;
   //  alert("kkjkj");
 }
 
