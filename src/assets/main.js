@@ -14,7 +14,7 @@ function setHiddenFields(){
     num = "0"+num;
   }
   answer.value = num
-  //return num;
+  
 }
 
 
